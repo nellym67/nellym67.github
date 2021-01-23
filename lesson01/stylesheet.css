@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 
-.name{
+h1{
     background-color: rgba(131, 243, 224, 0.815);
-    font-size: 25px;
+    font-size: 40px;
     padding: 25px;
     border-radius: 14px;
-    
+    text-align: center;
+    max-width: 1000px;
 }
 footer{
     background-color:rgba(131, 243, 224, 0.815);
@@ -26,8 +27,7 @@ body{
     padding:30px 300px 30px 300px;
 }
 img{
-    width:150px;
-    float: right;
+    width:125px;
     padding: 10px;
     box-shadow: 5px 5px 5px #999;
     
