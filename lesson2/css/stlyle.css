@@ -1,0 +1,44 @@
+
+h1, h2, p{
+    background-color: rgb(211, 181, 9);
+    padding: 25px;
+    border-radius: 14px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+section{
+    margin: 1em;
+    border-style: dotted;
+    border-radius: 14px;
+    border-color:  rgb(211, 181, 9);
+}
+
+img{
+    width:100%;
+}
+
+footer{
+    text-align: center;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+p, a{
+    text-align: center;
+}
+h1{
+    font-family: 'New Tegomin', serif;
+}
+h2,h3,p{
+    font-family: 'Lato', sans-serif;
+    
+}
+p{
+    font-size: 20px;
+}
