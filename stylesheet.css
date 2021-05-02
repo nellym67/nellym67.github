@@ -29,10 +29,13 @@ main{
 }
 
 img{
-    float:none;
-    width:125px;
-    margin: 10px;
-    box-shadow: 5px 5px 5px #999;
+   
+        width:150px;
+        float: right;
+        width:125px;
+        box-shadow: 5px 5px 5px #999;
+        border-radius: 14px;
+    
     
     
 }
