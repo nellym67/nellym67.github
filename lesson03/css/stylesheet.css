@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Tenor+Sans&display=swap');
+
+h1, h2{
+    font-family: 'Lobster', cursive;
+}
+
+p, li, footer{
+    font-family: 'Comfortaa', cursive;
+}
+
+header, footer{
+    background-color: #FBE088;
+}
+
 body{
     background-color: white;
 
@@ -6,7 +20,7 @@ body{
 nav{
     margin: 0 auto;
     max-width: 360px;
-    background-color: #12aaeb;
+    background-color: #e0e1e0;
 
 }
 
@@ -36,7 +50,7 @@ nav{
 
 #navigation a:hover, #navigation a.active:hover{
     color: white;
-    background-color: black;
+    background-color: #c1e79c;
 
 }
 
@@ -55,7 +69,7 @@ nav{
         max-width: 100%;
     }
     #navigation{
-        grid-template-columns: repeat(7,auto);
+        grid-template-columns: repeat(4,auto);
     
     }
 
@@ -68,13 +82,37 @@ nav{
     }
 
     #navigation li:first-child{
-        display: none;
+        display: none; 
     }
 }
 
 @media only screen and (min-width: 54.5em){
-    #navigation{
+    body{
         width: 800px;
         margin: 16px auto;
     }
+}
+
+footer{
+    text-align: center;
+}
+
+#lobster{
+    font-family: 'Lobster', cursive; 
+}
+
+#comforta{
+    font-family: 'Comfortaa', cursive;  
+}
+
+#logo{
+    width: 100px;
+}
+
+#color-scheme{
+    width:100%;
+}
+
+.bold{
+    font-weight: bold;
 }
