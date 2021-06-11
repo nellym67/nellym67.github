@@ -1,0 +1,157 @@
+h1, h2{
+    font-family: 'Lobster', cursive;
+}
+h2{
+    text-align: center;
+}
+
+p, li, footer{
+    font-family: 'Comfortaa', cursive;
+}
+
+footer{
+    background-color: #587792;
+    text-align: center;
+}
+
+body{
+    background-color: white;
+
+}
+
+nav{
+    margin: 0 auto;
+    max-width: 360px;
+    background-color: #D1F5FF;
+
+}
+
+
+#navigation{
+    list-style: none;
+    padding: 0;
+    grid-template-columns: auto;
+    display: grid;
+}
+
+#navigation li:first-child{
+    display: block;
+}
+
+#navigation li{
+    display: none;
+}
+
+#navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+#navigation a:hover, #navigation a.active:hover{
+    color: white;
+    background-color: #DE4D86;
+
+}
+
+#navigation a.active{
+    background-color: #02182B;
+    color: #EEF8FF;
+    
+}
+
+#navigation.responsive li{
+    display: block;
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #587792;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+.heding{
+    display: flex;
+    flex-direction: column;
+}
+
+.heading h1{
+    font-size: 1.6rem;
+    margin:0 0 0 0;
+
+
+}
+.motto{
+    font-style: italic;
+    letter-spacing: 1pt;
+    color: #F4FFFD;
+    font-size: .9rem;
+}
+
+/*medium */
+@media only screen and (min-width: 34.5em){
+
+    #navigation, #body {
+        margin-top: 0px;
+    }
+   
+    header img{
+        width: 150px;
+    }
+    .heading h1{
+        font-size: 3rem;
+    }
+    .motto{
+        font-size: larger;
+       
+    }
+    nav{
+        max-width: 100%;
+    }
+    #navigation{
+        grid-template-columns: repeat(6,auto);
+    
+    }
+
+    #navigation li{
+        display: block;
+    }
+    #navigation a {
+        text-align: center;
+
+    }
+
+    #navigation li:first-child{
+        display: none; 
+    }
+}
+/*large */
+@media only screen and (min-width: 54.5em){
+    #navigation, #body {
+        width: 800px;
+        margin: 16px auto;
+        margin-top: 0px;
+    }
+   
+}
+
+.content-box{
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed #DE4D86;
+    padding: 15px;
+}
