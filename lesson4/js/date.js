@@ -7,40 +7,40 @@ var dayOfMonth =d.getDate();
 
 var monthName="";
  switch(date){
-    case date == 0:
+    case date = 0:
          monthName= "January";
          break;
-    case date == 1:
+    case date = 1:
          monthName= "February";
          break;
-    case date == 2:
+    case date = 2:
          monthName= "March"
          break;
-    case date == 3:
+    case date = 3:
          monthName= "April";
          break;
-    case date == 4:
+    case date = 4:
          monthName= "May";
          break;
-    case date == 5:
+    case date = 5:
          monthName= "June"
          break;
-    case date == 6:
+    case date = 6:
          monthName= "July";
          break;
-    case date == 7:
+    case date = 7:
          monthName= "August";
          break;
-    case date == 8:
+    case date = 8:
          monthName= "September"
          break;
-    case date == 9:
+    case date = 9:
         monthName= "October";
         break;
-    case date == 10:
+    case date = 10:
         monthName= "November";
         break;
-    case date == 11:
+    case date = 11:
         monthName= "December"
         break;
 
