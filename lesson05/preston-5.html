@@ -7,14 +7,23 @@
     <title>Preston Idaho</title>
     <link href="css/stylesheet.css" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Tenor+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <script src="js/menu.js"></script>
     <script src="js/date.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
+    <div class= "pancake_banner">
+        <img class="pancake_img" src="images/pancake.png" alt="pancake">
+        <br>
+        Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.
+    </div>
+
     <header>
         <picture>
             <img src="images/iconfinder_weather-07_1530387.png" alt="logo">
@@ -28,56 +37,83 @@
             </div>
         </section>
 
-        
+
     </header>
-    <nav>
-        <ul id="navigation">
-            <li><a class="ham" href="#">&#9776;</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a class="active" href="#">Preston</a></li>
-            <li><a href="#">Soda Springs</a></li>
-            <li><a href="#">Fish Haven</a></li>
-            <li><a href="#">Storm Center</a></li>
-            <li><a href="#">Gallery</a></li>
-        </ul>
-    </nav>
+
     <main>
-    <section id="body">
-        <h2>
-            Preston Idaho
-        </h2>
+        <nav>
+            <ul id="navigation">
+                <li><a class="ham" href="#">&#9776;</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a class="active" href="#">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+        <section id="body">
+            <h2>
+                Preston Idaho
+            </h2>
 
-        <div class="content-box">
-            Hero with weather summary
+            <img id="hero_img" src="images/hero_img.jpeg">
+
+            <h3> Five Day Forecast</h3>
+            <div id="five_day_forecast">
+                <img class="five_day_forecast" src="images/sun.jpeg">
+                <img class="five_day_forecast" src="images/sun.jpeg">
+                <img class="five_day_forecast" src="images/sun.jpeg">
+                <img class="five_day_forecast" src="images/sun.jpeg">
+                <img class="five_day_forecast" src="images/sun.jpeg">
+            </div>
+
+            </div>
+
+            <h3>
+                Article
+            </h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam ipsum consequatur dolores consectetur
+                quisquam, fuga dicta delectus reprehenderit laudantium soluta vitae nostrum dolorem, repellendus quam
+                harum, libero quidem sapiente. Eligendi?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab aperiam nobis dignissimos corrupti facere,
+                modi culpa, accusantium expedita mollitia aliquid eos ipsum. Ab suscipit quae voluptas esse fuga, rerum
+                ad!
+            </p>
+            <div id="article_img">
+                <img class="article_img" src="images/lake.jpeg">
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <p>Contact Information</p>
+        <i class="fa fa-envelope"></i> sunweather@gmail.com <br>
+        <i class="fa fa-phone"></i> (208) 111-1111 <br>
+
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.77385344405!2d-111.91534445770034!3d42.09974162638239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1623483036008!5m2!1sen!2sus"
+                width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe> </br>
         </div>
 
-        <div class="content-box">
+        <a href="https://www.facebook.com/"><img src="images/facebook.png" class="social_media" alt="facebook"></a>
+        <a href="https://www.instagram.com/"><img src="images/instagram.png" class="social_media" alt="instagram"></a>
+        <a href="https://www.twitter.com/"><img src="images/twitter.png" class="social_media" alt="twitter"></a>
 
-            Five Day Forecast
+        <br>
 
-        </div>
+        &copy; Sun Weather | Nelly Ramirez Perez | Idaho | <a href="https://www.byui.edu/online" target="_blank">BYUI
+            Online Learning</a> <br>
+        <span id="full_date"></span>
+        <script src="js/date.js">
 
-        <div class="content-box">
-            Article
-        </div>
-
-        <div class="content-box">
-            Contact Information
-        </div>
-    </section>
-</main>
-<footer>
-    &copy; Fun Weather | Nelly Ramirez Perez | Idaho | <a href="https://www.byui.edu/online"
-        target="_blank">BYUI 
-        Online Learning</a> <br>
-    <span id="full_date"></span>
-    <script src="js/date.js">
-
-    </script>
+        </script>
 
 
 
-</footer>
+    </footer>
 </body>
 
 </html>
