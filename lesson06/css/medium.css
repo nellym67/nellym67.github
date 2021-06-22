@@ -1,0 +1,52 @@
+/*medium */
+@media only screen and (min-width: 34.5em){
+    .five_day_forecast{
+        width: 100px;
+    }
+
+    #navigation, #body {
+        margin-top: 0px;
+    }
+   
+    header img{
+        width: 150px;
+    }
+    .heading h1{
+        font-size: 3rem;
+    }
+    .motto{
+        font-size: larger;
+       
+    }
+    nav{
+        max-width: 100%;
+    }
+    #navigation{
+        grid-template-columns: repeat(6,auto);
+    
+    }
+
+    #navigation li{
+        display: block;
+    }
+    #navigation a {
+        text-align: center;
+
+    }
+
+    #navigation li:first-child{
+        display: none; 
+    }
+    
+    .pancake_banner{   
+        font-size: 18px;
+    }
+    .pancake_img{
+        width: 50px;
+    }  
+
+    #weather_summary{
+        font-size: 13px;
+    }
+    
+}

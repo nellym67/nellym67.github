@@ -1,0 +1,25 @@
+/*large */
+@media only screen and (min-width: 54.5em){
+    #navigation, #body {
+        width: 800px;
+        margin: 16px auto;
+        margin-top: 0px;
+    }
+   
+    .five_day_forecast{
+        width: 140px;
+    }
+
+    .pancake_banner{   
+        font-size: 22px;
+
+    }
+    .pancake_img{
+        width: 70px;
+    }  
+
+    #weather_summary{
+        font-size: 15px;
+    }
+   
+}
