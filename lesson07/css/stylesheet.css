@@ -1,0 +1,167 @@
+h1,
+h2,
+h3 {
+    font-family: 'Lobster', cursive;
+}
+
+h2,
+h3,
+p,
+section {
+    text-align: center;
+}
+
+p,
+li,
+footer,
+section {
+    font-family: 'Comfortaa', cursive;
+}
+
+
+footer {
+    background-color: #587792;
+    text-align: center;
+}
+
+body {
+    background-color: white;
+
+}
+
+nav {
+    margin: 0 auto;
+    max-width: 360px;
+    background-color: #D1F5FF;
+
+}
+
+
+#navigation {
+    list-style: none;
+    padding: 0;
+    grid-template-columns: auto;
+    display: grid;
+}
+
+#navigation li:first-child {
+    display: block;
+}
+
+#navigation li {
+    display: none;
+}
+
+#navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+#navigation a:hover,
+#navigation a.active:hover {
+    color: white;
+    background-color: #DE4D86;
+
+}
+
+#navigation a.active {
+    background-color: #02182B;
+    color: #EEF8FF;
+
+}
+
+#navigation.responsive li {
+    display: block;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #587792;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+
+.heding {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading h1 {
+    font-size: 1.6rem;
+    margin: 0 0 0 0;
+
+
+}
+
+.motto {
+    font-style: italic;
+    letter-spacing: 1pt;
+    color: #F4FFFD;
+    font-size: .9rem;
+}
+
+#hero_img {
+    width: 100%;
+}
+
+.social_media {
+    width: 30px;
+    height: 30px;
+}
+
+#navigation,
+#body {
+    margin-top: 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#lazy_img img {
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+#lazy_img {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9);
+    grid-gap: 10px;
+
+}
+
+.lazy_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 20px;
+    box-shadow: 0 0 5px #333;
+    margin: 0 auto;
+}
+
+
+
+figcaption {
+    display: none;
+}

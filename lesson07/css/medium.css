@@ -1,0 +1,55 @@
+/*medium */
+@media only screen and (min-width: 34.5em){
+
+    #navigation, #body {
+        margin-top: 0px;
+    }
+   
+    header img{
+        width: 150px;
+    }
+    .heading h1{
+        font-size: 3rem;
+    }
+    .motto{
+        font-size: larger;
+       
+    }
+    nav{
+        max-width: 100%;
+    }
+    #navigation{
+        grid-template-columns: repeat(6,auto);
+    
+    }
+
+    #navigation li{
+        display: block;
+    }
+    #navigation a {
+        text-align: center;
+
+    }
+
+    #navigation li:first-child{
+        display: none; 
+    }
+
+    #lazy_img{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+       
+    }
+    
+   
+    figcaption{
+        display: block;
+    }
+    #lazy_img img {
+        width: 350px;
+        height: 250px;
+        border-radius: 20px;
+    }
+}

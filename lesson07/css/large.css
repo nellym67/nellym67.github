@@ -1,0 +1,28 @@
+/*large */
+@media only screen and (min-width: 54.5em){
+    #navigation, #body {
+        width: 800px;
+        margin: 16px auto;
+        margin-top: 0px;
+    }
+
+    #lazy_img{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+
+    figcaption{
+        display: block;
+    }
+
+    #lazy_img img {
+        width: 250px;
+        height: 150px;
+        border-radius: 20px;
+    }
+    .lazy_img:hover {
+        box-shadow: 0 0 20px #333;
+    }
+}
