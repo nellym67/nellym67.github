@@ -6,10 +6,11 @@ let wind_chill = 35.74+(0.6215*temperature)-35.75*math_pow+(0.4275*(temperature*
 
 
 
-if (temperature<=50 && wind_speed < 3){
-    document.getElementById("wind").innerHTML = "N/A"
+if (temperature<=50 && wind_speed > 3){
+    document.getElementById("wind").innerHTML = wind_chill.toFixed() + " °F";
 }
 
 else{
-document.getElementById("wind").innerHTML = wind_chill.toFixed() + " \xB0F";
+
+document.getElementById("wind").innerHTML = "N/A"
 }
