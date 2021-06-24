@@ -14,7 +14,8 @@ section {
 p,
 li,
 footer,
-section {
+section,
+form {
     font-family: 'Comfortaa', cursive;
 }
 
@@ -134,31 +135,22 @@ h1 {
     text-align: center;
 }
 
-#lazy_img img {
-    width: 350px;
-    height: 250px;
+fieldset {
     border-radius: 20px;
+    border-color: #ffffff;
+    text-align: center;
+    width: 400px;
+    align-self: center;
+    margin: auto;
+    border-width: 0.1px;
+    box-shadow: 0 0 15px #333;
+
+
 }
 
-#lazy_img {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(9);
-    grid-gap: 10px;
-
-}
-
-.lazy_img {
+.buttons_bottom {
     display: flex;
-    align-items: center;
     justify-content: center;
-    border-radius: 20px;
-    box-shadow: 0 0 5px lightgray;
-    margin: 0 auto;
-}
-
-
-
-figcaption {
-    display: none;
+    align-items: center;
+   
 }
