@@ -51,19 +51,19 @@
                 <u>Storm Center</u>
             </h1>
 
-            <form method="get" action="thankyou.html">
+            <form action="thankyou.html">
 
-                <fieldset class="form" id="fieldset1">
+                <fieldset class="form larger" id="fieldset1">
                     <label for="fullname">Full Name:</label><br>
-                    <input type="text" id="fname" name="fname" pattern="[A-Za-z]"
-                        placeholder="John Doe " required minlength="5"><br>
+                    <input type="text" id="fname" name="fname" pattern="[A-Za-z ]{5,}"
+                        placeholder="John Doe " required ><br>
 
 
                     <br>
 
 
                     <label for="email">Email:</label> <br>
-                    <input type="email" id="email" pattern=".+@globex\.com" placeholder="john_doe@email.com"><br>
+                    <input type="email" id="email"  placeholder="john_doe@email.com"><br>
 
 
                     <br>

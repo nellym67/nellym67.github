@@ -154,3 +154,7 @@ fieldset {
     align-items: center;
    
 }
+
+input:focus{
+    border-color: lightgreen;
+}

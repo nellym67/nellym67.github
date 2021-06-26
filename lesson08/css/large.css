@@ -9,12 +9,17 @@
     }
 
     fieldset {
-        width: 400px;
+        width: 800px;
         align-self: center;
         margin: auto;
     }
 
 
+    form{
+        width: 800px;
 
-
+    }
+    .larger input{
+        width: 700px;
+    }
 }

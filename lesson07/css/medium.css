@@ -52,4 +52,8 @@
         height: 250px;
         border-radius: 20px;
     }
+
+    .lazy_img{
+        border: 1px solid lightgray;
+    }
 }
