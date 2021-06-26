@@ -157,8 +157,9 @@ h1 {
    
 }
 
-
-
 figcaption {
     display: none;
+}
+ div img{
+    background-color: lightgray;
 }
