@@ -34,6 +34,29 @@
     #navigation li:first-child{
         display: none; 
     }
-
+    fieldset {
+        width: 500px;
+        align-self: center;
+        margin: auto;
+    }
+    
+    
+    form{
+        width: 90%;
+    
+    }
+    .larger input{
+        width: 500px;
+    }
    
+    .submit_icon, img{
+        width: 200px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #thankyou{
+        font-size: 30px;
+    }
 }

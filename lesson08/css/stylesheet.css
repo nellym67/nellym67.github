@@ -154,7 +154,30 @@ fieldset {
     align-items: center;
    
 }
+fieldset {
+    width: 400px;
+    align-self: center;
+    margin: auto;
+}
 
-input:focus{
-    border-color: lightgreen;
+
+form{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.larger input{
+    width: 300px;
+}
+
+.submit_icon, img{
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#thankyou{
+    font-size: 20px;
 }
