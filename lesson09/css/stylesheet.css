@@ -5,7 +5,7 @@ h2, h3, p{
     text-align: center;
 }
 
-p, li, footer{
+p, li, footer, .json_h3{
     font-family: 'Comfortaa', cursive;
 }
 
@@ -123,6 +123,14 @@ header img {
     margin-top: 0px;
 }
 
+#body{
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    
+}
+
 section img{
 
 width: 250px;
@@ -130,8 +138,19 @@ height: 150px;
 display: block;
 margin-left: auto;
 margin-right: auto;
+padding-bottom: 5px;
 }
 
 .json_section{
-    background-color: lime;
+    background-color:#D1F5FF;
+    
+}
+
+.json_h3{
+    margin-top: 10px;
+    font-size: 10px;
+    font-style:italic;
+}
+h2{
+    margin-bottom: 0px;
 }

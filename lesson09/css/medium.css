@@ -37,6 +37,39 @@
     #navigation li:first-child{
         display: none; 
     }
+
     
+    h2 {text-align:center;}
+
+    #body, .json_section {
+     max-width: 800px;
+      margin: .5rem auto;  
+     ;
+    }
     
+    .json_section{
+      display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .json_section:nth-child(odd) #body, img{
+        grid-column: 2;
+    }
+    
+    .json_section:nth-child(odd) .data{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    #body, img{
+        width: 100%; height: auto;padding:0;
+    }
+
+    .data{
+        background-color:#D1F5FF;
+    }
+
+    p{
+        padding: .75rem;
+    }
 }

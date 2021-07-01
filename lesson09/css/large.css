@@ -28,9 +28,10 @@
         column-gap: 10px;
         
     }
-    
-    h3{
-        font-size: 13px;
+    .json_section{
+        background-color:#D1F5FF;
+        
     }
+   
 
 }

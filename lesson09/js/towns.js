@@ -22,7 +22,11 @@ fetch(requestURL)
         let p3 = document.createElement("p");
         let image = document.createElement("img");
 
+        h3.setAttribute("class","json_h3");
         body.setAttribute("class","json_section");
+        p1.setAttribute("class","data");
+        p2.setAttribute("class","data");
+        p3.setAttribute("class","data");
         h2.textContent= filter_town[i].name;
         h3.textContent=filter_town[i].motto;
         p1.textContent="Year Founded: " + filter_town[i].yearFounded;
