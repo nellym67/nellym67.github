@@ -120,10 +120,7 @@ header img {
     width: 100%;
 }
 
-.social_media {
-    width: 30px;
-    height: 30px;
-}
+
 
 #navigation,
 #body {
@@ -162,4 +159,47 @@ figcaption {
 }
  div img{
     background-color: lightgray;
+}
+
+footer{
+    font-size: 13px;
+    text-align: center  ;
+}
+
+
+#footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 60px;
+    column-gap: 30px;
+    row-gap: 30px;
+    
+}
+#map{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: end;
+    margin-top: 20px;
+   
+}
+
+#information{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: start;
+    margin-top: 30px;
+}
+
+#rights{
+    grid-column: 1/3;
+    grid-row: 2/2;
+}
+.social_media {
+    width: 30px;
+    margin: 8px;
+}
+
+.iframe {
+    width: 200px;
+    height: 140px;
 }

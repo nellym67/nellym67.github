@@ -1,0 +1,49 @@
+/*large */
+@media only screen and (min-width: 54.5em){
+    #navigation, #body {
+        width: 800px;
+        margin: 16px auto;
+        margin-top: 0px;
+    }
+   
+    .five_day_forecast{
+        width: 140px;
+    }
+
+    .pancake_banner{   
+        font-size: 22px;
+
+    }
+    .pancake_img{
+        width: 70px;
+    }  
+
+    #weather_summary{
+        font-size: 15px;
+    }
+    .article_img{
+        width: 400px;
+        height: auto;
+       
+        margin-top: auto;
+        display: block;
+    }
+    #article{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    .article{
+        margin-right: 20px;
+    }
+    #article p{
+        font-size: 15px;
+    }
+    footer{
+        font-size: 15px;
+    }
+    .iframe {
+        width: 250px;
+        height: 150px;
+    }
+}

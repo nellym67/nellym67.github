@@ -1,5 +1,8 @@
 /*medium */
 @media only screen and (min-width: 34.5em){
+    .five_day_forecast{
+        width: 100px;
+    }
 
     #navigation, #body {
         margin-top: 0px;
@@ -34,31 +37,33 @@
     #navigation li:first-child{
         display: none; 
     }
-    fieldset {
-        width: 500px;
-        align-self: center;
-        margin: auto;
-        margin:10px;
-    }
     
-    
-    form{
-        width: 90%;
-    
+    .pancake_banner{   
+        font-size: 18px;
     }
-    .larger input{
-        width: 500px;
-    }
-   
-    .submit_icon, img{
-        width: 200px;
-        height: 200px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+    .pancake_img{
+        width: 50px;
+    }  
 
-    #thankyou{
-        font-size: 30px;
+    #weather_summary{
+        font-size: 13px;
+    }
+    
+    .article_img{
+        width: 350px;
+        height: auto;
+        margin-top: auto;
+        display: block;
+    }
+    #article{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .article{
+        margin-right: 20px;
+    }
+    #article p{
+        font-size: 12px;
     }
     footer{
         font-size: 12px;

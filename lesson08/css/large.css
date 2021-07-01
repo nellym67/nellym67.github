@@ -13,6 +13,7 @@
         width: 600px;
         align-self: center;
         margin: auto;
+        margin:10px;
     }
     
     
@@ -33,5 +34,12 @@
 
     #thankyou{
         font-size: 40px;
+    }
+    footer{
+        font-size: 15px;
+    }
+    .iframe {
+        width: 250px;
+        height: 150px;
     }
 }

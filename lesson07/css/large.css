@@ -25,5 +25,13 @@
     .lazy_img:hover {
         box-shadow: 0 0 20px #333;
         
+ 
+    }
+    footer{
+        font-size: 15px;
+    }
+    .iframe {
+        width: 250px;
+        height: 150px;
     }
 }

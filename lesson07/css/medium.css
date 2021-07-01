@@ -56,4 +56,11 @@
     .lazy_img{
         border: 1px solid lightgray;
     }
+    footer{
+        font-size: 12px;
+    }
+    .iframe {
+        width: 200px;
+        height: 150px;
+    }
 }
