@@ -44,32 +44,40 @@
     #body, .json_section {
      max-width: 800px;
       margin: .5rem auto;  
-     ;
+     
     }
     
     .json_section{
       display: grid;
         grid-template-columns: 1fr 1fr;
+        margin: 20px;
     }
     
-    .json_section:nth-child(odd) #body, img{
-        grid-column: 2;
+    .json_section:nth-child(odd) img{
+        grid-column: 1;
     }
     
     .json_section:nth-child(odd) .data{
-        grid-column: 1;
+        grid-column: 2;
         grid-row: 1;
     }
     
     #body, img{
         width: 100%; height: auto;padding:0;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: 45px;
+        
     }
 
     .data{
         background-color:#D1F5FF;
+        margin: 0px;
     }
 
-    p{
+    .json_section p{
         padding: .75rem;
+        margin: 0px;
     }
 }

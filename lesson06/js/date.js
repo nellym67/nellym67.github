@@ -77,9 +77,7 @@ var fullDate= dayName + ", " + dayOfMonth + " "+ monthName +  " " + year;
 document.querySelector("#full_date").innerHTML = fullDate;
 console.log(fullDate);
 
-if (days==5){
-    document.querySelector(".pancake_banner").style.display="block"
-}
+
 });
 
 

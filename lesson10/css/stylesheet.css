@@ -118,17 +118,17 @@ header img {
     width: 100%;
 }
 
-#five_day_forecast {
+.week_days {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 
 }
 
-.five_day_forecast {
+/* .five_day_forecast {
     width: 40px;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
 
 
@@ -248,4 +248,9 @@ footer {
 .iframe {
     width: 200px;
     height: 140px;
+}
+
+.week_days{
+    text-align: center;
+   
 }
