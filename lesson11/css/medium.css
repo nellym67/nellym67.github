@@ -1,0 +1,208 @@
+/*medium */
+@media only screen and (min-width: 34.5em) {
+    .five_day_forecast {
+        width: 100px;
+    }
+
+    #navigation,
+    .body {
+        margin-top: 0px;
+    }
+
+    header img {
+        width: 150px;
+    }
+
+    .heading h1 {
+        font-size: 3rem;
+    }
+
+    .motto {
+        font-size: larger;
+
+    }
+
+    nav {
+        max-width: 100%;
+    }
+
+    #navigation {
+        grid-template-columns: repeat(6, auto);
+
+    }
+
+    #navigation li {
+        display: block;
+    }
+
+    #navigation a {
+        text-align: center;
+
+    }
+
+    #navigation li:first-child {
+        display: none;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .body,
+    .json_section {
+        max-width: 800px;
+        margin: .5rem auto;
+
+    }
+
+    .json_section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 20px;
+    }
+
+    .json_section:nth-child(odd) img {
+        grid-column: 1;
+    }
+
+    .json_section:nth-child(odd) .data {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .json_section img {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        /* display: block; */
+        margin-left: auto;
+        margin-right: auto;
+        /* margin-top: 45px;
+         */
+    }
+
+    .data {
+        background-color: #D1F5FF;
+        margin: 0px;
+    }
+
+    .json_section p {
+        padding: .75rem;
+        margin: 0px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+
+    .iframe {
+        width: 200px;
+        height: 150px;
+    }
+
+    /* Storm cente page */
+    fieldset {
+        width: 500px;
+        align-self: center;
+        margin: auto;
+        margin: 10px;
+    }
+
+
+    form {
+        width: 90%;
+
+    }
+
+    .larger input {
+        width: 500px;
+    }
+
+    .submit_icon
+    img {
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    #thankyou {
+        font-size: 30px;
+    }
+
+    /* PRESTON PAGE */
+
+    .pancake_banner {
+        font-size: 18px;
+    }
+
+    .pancake_img {
+        width: 50px;
+        height: auto;
+    }
+
+    #weather_summary {
+        font-size: 13px;
+    }
+
+    .article_img {
+        width: 350px;
+        height: auto;
+        margin-top: auto;
+        display: block;
+    }
+
+    #article {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .article {
+        margin-right: 20px;
+    }
+
+    #article p {
+        font-size: 12px;
+    }
+
+    #five_day {
+        display: block;
+    }
+
+    .week_days {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        text-align: center;
+        column-gap: 5px;
+
+    }
+
+    .day_block {
+        background-color: #587792;
+
+    }
+
+    /* GALLERY PAGE */
+    #lazy_img {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+
+    }
+
+
+    figcaption {
+        display: block;
+    }
+
+    #lazy_img img {
+        width: 350px;
+        height: 250px;
+        border-radius: 20px;
+    }
+
+    .lazy_img {
+        border: 1px solid lightgray;
+    }
+}

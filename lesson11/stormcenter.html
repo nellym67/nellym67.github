@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Storm Center report for users">
+    <title>Storm Center</title>
+    <link href="css/stylesheet.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <picture>
+            <img src="images/iconfinder_weather-07_1530387.png" alt="logo">
+        </picture>
+        <section class="heading">
+            <h1>
+                Sun Weather
+            </h1>
+            <div class="motto">
+                It is always a good time to get out
+            </div>
+        </section>
+
+
+    </header>
+
+    <main>
+        <nav>
+            <ul id="navigation">
+                <li><a class="ham" href="#">&#9776;</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a   href="preston.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a class="active" href="stormcenter.html">Storm Center</a></li>
+                <li><a  href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <div class="body" id="storm_center_body">
+            <h1 class="page_h1">
+                <u>Storm Center</u>
+            </h1>
+
+            <form action="thankyou.html">
+
+                <fieldset class="form larger" id="fieldset1">
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" id="fname" name="fname" pattern="[A-Za-z ]{5,}"
+                        placeholder="John Doe " required ><br>
+
+
+                    <br>
+
+
+                    <label for="email">Email:</label> <br>
+                    <input type="email" id="email"  placeholder="john_doe@email.com"><br>
+
+
+                    <br>
+
+
+                    <label>Phone: <br>
+                        <input type="tel" name="phone" placeholder="###-###-####" required>
+                    </label><br>
+
+
+                    <br>
+
+
+                    <label for="zip">Zip Code:<br>
+                        <input type="text" id="zip" name="zip" pattern="(\d{5}([\-]\d{4})?)"
+                            autocomplete="shipping postal-codep" required></label><br>
+
+                </fieldset>
+                <br>
+
+                <fieldset class="form larger" id="fieldset2">
+                    <label for="date">Date:</label><br>
+                    <input type="date" id="date" name="date"><br>
+
+
+                    <br>
+
+
+                    <label>
+                        <label for="storm_type">Storm Type:</label><br>
+                        <select name="storm_type" id="storm_type" onchange="selectResponse()"><br>
+                            <datalist id="storm_type">
+                                <option value="" disabled selected>Storm Type...</option>
+                                <option value="Flash Flood">Flash Flood</option>
+                                <option value="Hail">Hail</option>
+                                <option value="Hurricane">Hurricane</option>
+                                <option value="Thunderstorm">Thunderstorm</option>
+                                <option value="Tornado">Tornado</option>
+                            </datalist>
+                        </select></label><br>
+
+
+
+                    <br>
+
+
+                    <label class="flexly" for="rating">Rating: <span id="ratingvalue">5</span> &nbsp;&nbsp;&nbsp;<br>
+                        <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
+                            oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+
+                    </label>
+
+                    <datalist id="tickmarks">
+                        <option value="0">
+                        <option value="1">
+                        <option value="2">
+                        <option value="3">
+                        <option value="4">
+                        <option value="5">
+                        <option value="6">
+                        <option value="7">
+                        <option value="8">
+                        <option value="9">
+                        <option value="10">
+                    </datalist><br>
+
+
+                    <br>
+
+
+                    <label>
+                        <label for="region">Region:</label><br>
+                        <select name="region" id="selectregion" onchange="selectResponse()"><br>
+                            <datalist id="region">
+                                <option value="" disabled selected>Select Region ...</option>
+                                <option value="Preston">Preston</option>
+                                <option value="Soda Springs">Soda Springs</option>
+                                <option value="Fish Haven">Fish Haven</option>
+                            </datalist>
+                        </select></label><br>
+
+
+                </fieldset>
+                <br>
+
+                <fieldset class="form">
+                    <label for="danger">Are you in danger?</label><br>
+
+                    <input type="radio" id="answer1" name="answer" value="yes" checked> <label for="answer1">Yes</label><br>
+
+
+                    <input type="radio" id="answer2" name="answer" value="Maybe" checked> <label
+                        for="answer2">Maybe</label><br>
+
+
+                    <input type="radio" id="answer3" name="answer" value="No" checked> <label for="answer3">No</label>
+                    <br>
+
+
+                    <br>
+
+
+
+                    <label for="additional_information">Additional Information:</label><br>
+                    <textarea id="additional_information" name="additional_information" rows="5" cols="33">
+                </textarea><br>
+
+                </fieldset>
+
+                <br>
+
+
+                <div class="buttons_bottom">
+
+                    <input type="submit" class="sbutton"><br>
+
+                </div>
+        </div>
+
+        </form>
+
+
+        </div>
+    </main>
+    <footer id="footer">
+
+        <section class="footer" id="map">
+            
+                <iframe class="iframe"
+                title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.77385344405!2d-111.91534445770034!3d42.09974162638239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1623483036008!5m2!1sen!2sus" 
+                    width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
+           
+        </section>
+
+        <section class="footer" id="information">
+        <p>Contact Information</p>
+        <i class="fa fa-envelope"></i> sunweather@gmail.com <br>
+        <i class="fa fa-phone"></i> (208) 111-1111 <br>
+
+        
+
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener"><img src="images/facebook.png" class="social_media" alt="facebook" ></a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener"><img src="images/instagram.png" class="social_media" alt="instagram"></a>
+        <a href="https://www.twitter.com/" target="_blank" rel="noopener"><img src="images/twitter.png" class="social_media" alt="twitter"></a>
+
+    </section>
+    <section class="footer" id="rights">
+        &copy; Sun Weather | Nelly Ramirez Perez | Idaho | <a href="https://www.byui.edu/online" target="_blank" rel="noopener">BYUI
+            Online Learning</a> <br>
+        <span id="full_date"></span>
+        <script src="js/date.js"></script>
+    </section>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/date.js"></script>
+    <script src="js/range.js"></script>
+</body>
+
+</html>
