@@ -36,7 +36,7 @@ fetch(requestURL)
         image.setAttribute('src', "images/" + filter_town[i].photo)
         
 
-        document.querySelector('div#body').appendChild(body);
+        document.querySelector('div#index_body').appendChild(body);
         body.appendChild(image);
 
     }

@@ -1,6 +1,6 @@
 /*large */
 @media only screen and (min-width: 54.5em){
-    #navigation, #body {
+    #navigation, .body {
         width: 800px;
         margin: 16px auto;
         margin-top: 0px;
@@ -26,10 +26,12 @@
         display: block;
         grid-template-columns: 1fr;
         background-color:#D1F5FF; 
-        margin: 0;   
+        margin: 0 auto; 
+        margin-bottom: 10px;
+
     }
 
-    #body{
+    #index_body{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 10px;
@@ -39,6 +41,41 @@
     h3{
         height: 42px;
         font-size: 15px;
+    }
+    footer{
+        font-size: 15px;
+    }
+    .iframe {
+        width: 250px;
+        height: 150px;
+    }
+    /* Storm Center page */
+    
+    fieldset {
+        width: 600px;
+        align-self: center;
+        margin: auto;
+        margin:10px;
+    }
+    
+    
+    form{
+        width: 90%;
+    
+    }
+    .larger input, #storm_type, #selectregion, textarea{
+        width: 500px;
+    }
+
+    .submit_icon, img{
+        width: 300px;
+        height: 270px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #thankyou{
+        font-size: 40px;
     }
     footer{
         font-size: 15px;

@@ -1,26 +1,36 @@
-h1, h2, h3{
+h1,
+h2,
+h3 {
     font-family: 'Lobster', cursive;
 }
-h2, h3, p{
+
+h2,
+h3,
+p {
     text-align: center;
 }
 
-p, li, footer, .json_h3{
+p,
+li,
+footer,
+.json_h3,
+section,
+form{
     font-family: 'Comfortaa', cursive;
 }
 
 
-footer{
+footer {
     background-color: #587792;
     text-align: center;
 }
 
-body{
+body {
     background-color: white;
 
 }
 
-nav{
+nav {
     margin: 0 auto;
     max-width: 360px;
     background-color: #D1F5FF;
@@ -28,18 +38,18 @@ nav{
 }
 
 
-#navigation{
+#navigation {
     list-style: none;
     padding: 0;
     grid-template-columns: auto;
     display: grid;
 }
 
-#navigation li:first-child{
+#navigation li:first-child {
     display: block;
 }
 
-#navigation li{
+#navigation li {
     display: none;
 }
 
@@ -52,28 +62,30 @@ nav{
     font-weight: 700;
 }
 
-#navigation a:hover, #navigation a.active:hover{
+#navigation a:hover,
+#navigation a.active:hover {
     color: white;
     background-color: #DE4D86;
 
 }
 
-#navigation a.active{
+#navigation a.active {
     background-color: #02182B;
     color: #EEF8FF;
-    
+
 }
 
-#navigation.responsive li{
+#navigation.responsive li {
     display: block;
 }
 
 
-body{
-    padding: 0;
-    margin: 0;
+body {
+    padding: 0 auto;
+    margin: 0 auto;
 }
-header{
+
+header {
     background-color: #587792;
     padding: 5px 0;
     display: flex;
@@ -85,73 +97,76 @@ header img {
     width: 80px;
     height: auto;
 }
-.heding{
+
+.heding {
     display: flex;
     flex-direction: column;
 }
 
-.heading h1{
+.heading h1 {
     font-size: 1.6rem;
-    margin:0 0 0 0;
+    margin: 0 0 0 0;
 
 
 }
-.motto{
+
+.motto {
     font-style: italic;
     letter-spacing: 1pt;
     color: #F4FFFD;
     font-size: .9rem;
 }
 
-#hero_img{
+#hero_img {
     width: 100%;
 }
 
-#five_day_forecast{
+#five_day_forecast {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    
+
 }
 
 
-
-
-
-#navigation, #body {
+#navigation,
+.body {
     margin-top: 0px;
 }
 
-#body{
+#index_body{
     display: grid;
     grid-template-columns: 1fr;
     column-gap: 10px;
     row-gap: 10px;
-    
+
 }
 
-section img{
+.json_section img {
 
-width: 250px;
-height: 150px;
-display: block;
-margin-left: auto;
-margin-right: auto;
-padding-bottom: 5px;
+    width: 260px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
 }
 
-.json_section{
-    background-color:#D1F5FF;
-    
+.json_section {
+    background-color: #D1F5FF;
+    margin: 20px;
+
 }
 
-.json_h3{
+.json_h3 {
     margin-top: 10px;
     font-size: 10px;
-    font-style:italic;
+    font-style: italic;
 }
-h2{
+
+h2 {
     margin-bottom: 0px;
 }
+
 footer {
     font-size: 13px;
     text-align: center;
@@ -192,6 +207,108 @@ footer {
 .social_media {
     width: 30px;
     height: 30px;
+    margin: 8px;
+}
+
+.iframe {
+    width: 200px;
+    height: 140px;
+}
+
+/* Storm center page */
+
+.storm_h1 {
+    text-align: center;
+}
+
+fieldset {
+    border-radius: 20px;
+    border-color: #ffffff;
+    text-align: center;
+    width: 400px;
+    align-self: center;
+    margin: auto;
+    border-width: 0.1px;
+    box-shadow: 0 0 15px #333;
+
+
+}
+
+.buttons_bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+fieldset {
+    width: 400px;
+    align-self: center;
+    margin: auto;
+    margin:10px;
+   
+}
+
+
+form{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.larger input{
+    width: 300px;
+}
+
+.submit_icon, img{
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#thankyou{
+    font-size: 20px;
+    text-align: center;
+}
+footer {
+    font-size: 13px;
+    text-align: center;
+}
+
+
+#footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 60px;
+    column-gap: 30px;
+    row-gap: 30px;
+
+}
+
+#map {
+
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: end;
+    margin-top: 20px;
+
+
+}
+
+#information {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: start;
+    margin-top: 30px;
+}
+
+#rights {
+    grid-column: 1/3;
+    grid-row: 2/2;
+}
+
+.social_media {
+    width: 30px;
     margin: 8px;
 }
 

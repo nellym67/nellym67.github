@@ -4,7 +4,7 @@
         width: 100px;
     }
 
-    #navigation, #body {
+    #navigation, .body {
         margin-top: 0px;
     }
    
@@ -41,7 +41,7 @@
     
     h2 {text-align:center;}
 
-    #body, .json_section {
+    .body, .json_section {
      max-width: 800px;
       margin: .5rem auto;  
      
@@ -62,13 +62,13 @@
         grid-row: 1;
     }
     
-    #body, img{
-        width: 100%; height: auto;padding:0;
+    #index_body, img{
+       width: 100%; height: auto;padding:0;
        display: block;
        margin-left: auto;
        margin-right: auto;
-       margin-top: 45px;
-        
+       /* margin-top: 45px;
+         */
     }
 
     .data{
@@ -86,5 +86,33 @@
     .iframe {
         width: 200px;
         height: 150px;
+    }
+
+    /* Storm cente page */
+    fieldset {
+        width: 500px;
+        align-self: center;
+        margin: auto;
+        margin:10px;
+    }
+    
+    
+    form{
+        width: 90%;
+    
+    }
+    .larger input{
+        width: 500px;
+    }
+   
+    .submit_icon, img{
+        width: 200px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #thankyou{
+        font-size: 30px;
     }
 }   
