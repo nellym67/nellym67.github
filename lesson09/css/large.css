@@ -36,7 +36,7 @@
         margin: 0 auto;
     }
     
-    .json_h3{
+    .json_h3, h3{
         height: 42px;
         font-size: 15px;
     }
@@ -99,4 +99,28 @@
         font-size: 15px;
     }
    
+
+    /* GALLERY PAGE */
+
+    #lazy_img{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+
+    figcaption{
+        display: block;
+    }
+
+    #lazy_img img {
+        width: 250px;
+        height: 150px;
+        border-radius: 20px;
+    }
+    .lazy_img:hover {
+        box-shadow: 0 0 20px #333;
+        
+ 
+    }
 }

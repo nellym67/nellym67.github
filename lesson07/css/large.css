@@ -1,6 +1,6 @@
 /*large */
 @media only screen and (min-width: 54.5em){
-    #navigation, #body {
+    #navigation, .body {
         width: 800px;
         margin: 16px auto;
         margin-top: 0px;

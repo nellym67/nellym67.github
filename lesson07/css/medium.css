@@ -1,7 +1,7 @@
 /*medium */
 @media only screen and (min-width: 34.5em){
 
-    #navigation, #body {
+    #navigation, .body {
         margin-top: 0px;
     }
    

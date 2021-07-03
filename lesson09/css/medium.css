@@ -130,4 +130,26 @@
         font-size: 13px;
     }
     
+    /* GALLERY PAGE */
+    #lazy_img{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+       
+    }
+    
+   
+    figcaption{
+        display: block;
+    }
+    #lazy_img img {
+        width: 350px;
+        height: 250px;
+        border-radius: 20px;
+    }
+
+    .lazy_img{
+        border: 1px solid lightgray;
+    }
 }   
