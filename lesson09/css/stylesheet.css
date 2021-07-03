@@ -121,9 +121,6 @@ header img {
     width: 100%;
 }
 
-
-
-
 #navigation,
 .body {
     margin-top: 0px;
@@ -210,6 +207,7 @@ footer {
     width: 200px;
     height: 140px;
 }
+
 .page_h1 {
     text-align: center;
 }
@@ -403,18 +401,19 @@ picture {
     justify-content: center;
     border-radius: 20px;
     margin: 0 auto;
-   
+
 }
 
 figcaption {
     display: none;
     text-align: center;
 }
-.lazy_img img{
+
+.lazy_img img {
     background-color: lightgray;
 }
 
-footer{
+footer {
     font-size: 13px;
-    text-align: center  ;
+    text-align: center;
 }
