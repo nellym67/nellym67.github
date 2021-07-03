@@ -12,7 +12,10 @@ p {
 
 p,
 li,
-footer {
+footer,
+.json_h3,
+section,
+form {
     font-family: 'Comfortaa', cursive;
 }
 
@@ -118,73 +121,55 @@ header img {
     width: 100%;
 }
 
-.pancake_banner {
-    background-color: #DE4D86;
-    text-align: center;
-    font-family: 'Comfortaa', cursive;
-    font-size: 14px;
-    font-weight: bold;
-    color: white;
-    display: none;
-}
-
-
-.pancake_img {
-    width: 40px;
-}
-
 #navigation,
 #body {
     margin-top: 0px;
 }
 
-#weather_summary {
+#index_body {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+
+}
+
+.json_section img {
+
+    width: 260px;
+    height: 150px;
     display: block;
-    border: 1px solid #D1F5FF;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+}
+
+.json_section {
     background-color: #D1F5FF;
-    position: absolute;
-    z-index: 1;
-    padding: 10px;
-    margin-left: 15px;
-    margin-top: 15px;
-    opacity: 0.8;
-    font-size: 11px;
+    margin: 20px;
 
 }
 
-picture {
-    position: relative;
-}
-
-.content-box {
-    display: block;
-    margin: 10px auto;
-    border: 1px dashed #DE4D86;
-    padding: 15px;
-}
-
-.author {
-    font-size: 13px;
+.json_h3 {
+    margin-top: 10px;
+    font-size: 10px;
     font-style: italic;
 }
 
-.article_img {
-    width: 250px;
-    height: auto;
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
+h2 {
+    margin-bottom: 0px;
 }
 
-#article {
-    display: grid;
-    grid-template-columns: 1fr;
 
-}
 
-#article p {
-    font-size: 13px;
-}
+
+
+
+
+
+
+
+
 
 footer {
     font-size: 13px;
@@ -233,7 +218,190 @@ footer {
     height: 140px;
 }
 
-#five_day{
+#five_day {
     display: none;
-   
+
+}
+
+.page_h1 {
+    text-align: center;
+}
+
+/* STORM CENTER PAGE */
+
+
+
+fieldset {
+    border-radius: 20px;
+    border-color: #ffffff;
+    text-align: center;
+    width: 400px;
+    align-self: center;
+    margin: auto;
+    border-width: 0.1px;
+    box-shadow: 0 0 15px #333;
+
+
+}
+
+.buttons_bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+fieldset {
+    width: 400px;
+    align-self: center;
+    margin: auto;
+    margin: 10px;
+
+}
+
+
+form {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.larger input {
+    width: 300px;
+}
+
+.submit_icon,
+img {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#thankyou {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* PRESTON PAGE */
+#five_day_forecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+.five_day_forecast {
+    width: 40px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-box {
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed #DE4D86;
+    padding: 15px;
+}
+
+.social_media {
+    width: 30px;
+}
+
+.pancake_banner {
+    background-color: #DE4D86;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    display: none;
+}
+
+
+.pancake_img {
+    width: 40px;
+    height: auto;
+}
+
+#weather_summary {
+    display: block;
+    border: 1px solid #D1F5FF;
+    background-color: #D1F5FF;
+    position: absolute;
+    z-index: 1;
+    padding: 10px;
+    margin-left: 15px;
+    margin-top: 15px;
+    opacity: 0.8;
+    font-size: 11px;
+
+}
+
+picture {
+    position: relative;
+}
+
+
+.author {
+    font-size: 13px;
+    font-style: italic;
+}
+
+.article_img {
+    width: 250px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+#article {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+#article p {
+    font-size: 13px;
+}
+
+/* GALLERY PAGE */
+
+#lazy_img img {
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+#lazy_img {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9);
+    grid-gap: 10px;
+
+}
+
+.lazy_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 0 auto;
+
+}
+
+figcaption {
+    display: none;
+    text-align: center;
+}
+
+.lazy_img img {
+    background-color: lightgray;
+}
+
+footer {
+    font-size: 13px;
+    text-align: center;
 }
