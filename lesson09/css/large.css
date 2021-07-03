@@ -6,9 +6,7 @@
         margin-top: 0px;
     }
    
-    .five_day_forecast{
-        width: 140px;
-    }
+    
 
     .pancake_banner{   
         font-size: 22px;
@@ -38,7 +36,7 @@
         margin: 0 auto;
     }
     
-    h3{
+    .json_h3{
         height: 42px;
         font-size: 15px;
     }
@@ -84,4 +82,21 @@
         width: 250px;
         height: 150px;
     }
+    /* PRESTON PAGE */
+    .five_day_forecast{
+        width: 140px;
+    }
+    .pancake_banner{   
+        font-size: 22px;
+
+    }
+    .pancake_img{
+        width: 70px;
+        height: auto;
+    }  
+
+    #weather_summary{
+        font-size: 15px;
+    }
+   
 }

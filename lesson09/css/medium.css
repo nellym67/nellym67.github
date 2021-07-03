@@ -2,6 +2,7 @@
 @media only screen and (min-width: 34.5em){
     .five_day_forecast{
         width: 100px;
+        height:auto;
     }
 
     #navigation, .body {
@@ -115,4 +116,18 @@
     #thankyou{
         font-size: 30px;
     }
+
+    /* PRESTON PAGE */
+    .pancake_banner{   
+        font-size: 18px;
+    }
+    .pancake_img{
+        width: 50px;
+        height: auto;
+    }  
+
+    #weather_summary{
+        font-size: 13px;
+    }
+    
 }   
