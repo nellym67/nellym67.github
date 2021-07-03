@@ -140,8 +140,8 @@ header img {
 
 #weather_summary {
     display: block;
-    border: 1px solid blue;
-    background-color: cornflowerblue;
+    border: 1px solid #D1F5FF;
+    background-color: #D1F5FF;
     position: absolute;
     z-index: 1;
     padding: 10px;
