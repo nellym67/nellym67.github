@@ -17,9 +17,10 @@ fetch(requestURL)
     for (let i = 0; i < filteredList.length; i++) {
         let curDay = filteredList[i]
 
-        let name = document.createElement("h3")
-        let temp = document.createElement("p")
-        let icon = document.createElement("img")
+        let name = document.createElement("h3");
+        let temp = document.createElement("p");
+        let icon = document.createElement("img");
+       
 
         // get the whole date time string
         let dateTimeString = curDay.dt_txt
@@ -79,3 +80,16 @@ fetch(requestURL)
 
 
 })
+console.log("hello")
+const weatherURL="https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=6fb64bcfd53c37c4e4020c47054f567f&units=imperial";
+fetch(weatherURL)
+.then((response) => {
+    return response.json()
+})
+.then((weathersummary) => {
+    console.log(weathersummary);
+    document.getElementById("currently").innerHTML=weathersummary.weather[0].main;
+    document.getElementById("temperature").innerHTML=weathersummary.main.temp;
+    document.getElementById("humidity").innerHTML = weathersummary.main.humidity;
+    document.getElementById("wind_speed").innerHTML= weathersummary.wind.speed;
+});

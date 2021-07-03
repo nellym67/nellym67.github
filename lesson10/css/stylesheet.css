@@ -118,23 +118,6 @@ header img {
     width: 100%;
 }
 
-.week_days {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-
-}
-
-/* .five_day_forecast {
-    width: 40px;
-    margin-left: auto;
-    margin-right: auto;
-} */
-
-
-
-
-
-
 .pancake_banner {
     background-color: #DE4D86;
     text-align: center;
@@ -162,10 +145,10 @@ header img {
     position: absolute;
     z-index: 1;
     padding: 10px;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-left: 15px;
+    margin-top: 15px;
     opacity: 0.8;
-    font-size: 8px;
+    font-size: 11px;
 
 }
 
@@ -250,7 +233,7 @@ footer {
     height: 140px;
 }
 
-.week_days{
-    text-align: center;
+#five_day{
+    display: none;
    
 }

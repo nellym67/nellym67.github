@@ -57,35 +57,33 @@
             <div id="weather_summary">
                 <h3><u>Weather Summary</u></h3>
                 <p>
-                    <spam id="currently">Currently: Rainy</spam>
+                    Currently: <spam id="currently"></spam>
                 </p>
                 <p>
-                    High: <spam id="temperature">54 °F</spam>
+                    High: <spam id="temperature"></spam> °F
                 </p>
                 <p>
                     Wind Chill: <spam id="wind"></spam>
                 </p>
                 <p>
-                    Humidity: <spam id="humidity">95</spam>%
+                    Humidity: <spam id="humidity"></spam>%
                 </p>
                 <p>
-                    Wind Speed: <spam id="wind_speed">12</spam>mph
+                    Wind Speed: <spam id="wind_speed"></spam> mph
                 </p>
             </div>
             <section id="hero">
                 <picture>
-                    <source srcset="images/wdd230_image_400.jpg" media="(max-width:34.5em)">
-                    <img id="hero_img" src="images/wdd230_image_800.jpg">
-                    <source srcset="images/wdd230_image_600.jpg" media="(max-width:54.5em)">
                     
+                <img id="hero_img" src="images/hero_img.jpg">
 
 
 
                 </picture>
 
             </section>
-            <section class="content-box">
-                <h3> Five Day Forecast</h3>
+            <section class="content-box" id="five_day">
+                <h3 > Five Day Forecast</h3>
                 <div class="week_days">
 
                     <div class="day_block" id="day1">

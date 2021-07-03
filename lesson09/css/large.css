@@ -40,6 +40,11 @@
         height: 42px;
         font-size: 15px;
     }
-   
-
+    footer{
+        font-size: 15px;
+    }
+    .iframe {
+        width: 250px;
+        height: 150px;
+    }
 }

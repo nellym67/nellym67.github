@@ -80,4 +80,11 @@
         padding: .75rem;
         margin: 0px;
     }
-}
+    footer{
+        font-size: 12px;
+    }
+    .iframe {
+        width: 200px;
+        height: 150px;
+    }
+}   
