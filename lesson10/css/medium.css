@@ -118,12 +118,12 @@
         width: 500px;
     }
 
-    .submit_icon,
+    .submit_icon
     img {
         width: 200px;
-        height: 200px;
         margin-left: auto;
         margin-right: auto;
+        display: block;
     }
 
     #thankyou {
