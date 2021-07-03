@@ -410,7 +410,7 @@ figcaption {
     display: none;
     text-align: center;
 }
- div img{
+.lazy_img img{
     background-color: lightgray;
 }
 
