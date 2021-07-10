@@ -355,7 +355,9 @@ picture {
 #article p {
     font-size: 13px;
 }
-
+.event p{
+    font-size: 13px;
+}
 /* GALLERY PAGE */
 
 #lazy_img img {
@@ -394,3 +396,4 @@ footer {
     font-size: 13px;
     text-align: center;
 }
+

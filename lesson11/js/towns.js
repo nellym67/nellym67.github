@@ -13,9 +13,10 @@ fetch(requestURL)
     });
     console.log(filter_town);
     
-    for(let i=0; 1< filter_town.length; i++){
+    for(let i=0; i< filter_town.length; i++){
         let body = document.createElement('section');
         body.classList.add("town");
+        console.log(filter_town[i]);
         body.innerHTML=`
         <div class="data">
         <h2>${filter_town[i].name}<h2>
@@ -34,6 +35,7 @@ fetch(requestURL)
         body.setAttribute("class","json_section");
 
         image.setAttribute('src', "images/" + filter_town[i].photo)
+        image.alt="activity";
         
 
         document.querySelector('div#index_body').appendChild(body);

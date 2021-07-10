@@ -1,10 +1,22 @@
-const requestURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=6fb64bcfd53c37c4e4020c47054f567f&units=imperial"
-fetch(requestURL)
+const page= document.getElementById('weather_page').textContent;
+
+let weatherurl="";
+if (page=="Preston"){
+    weatherurl="https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=6fb64bcfd53c37c4e4020c47054f567f&units=imperial";
+}
+else if (page=="Soda Springs"){
+    weatherurl="https://api.openweathermap.org/data/2.5/forecast?id=5607916&appid=6fb64bcfd53c37c4e4020c47054f567f&units=imperial"
+}
+else if(page=="Fish Haven"){
+    weatherurl="https://api.openweathermap.org/data/2.5/forecast?id=5604045&appid=6fb64bcfd53c37c4e4020c47054f567f&units=imperial"
+}
+
+fetch(weatherurl)
 .then((response) => {
     return response.json()
 })
 .then((fiveDayData) => {
-    console.table(fiveDayData)
+    
 
     // grabbing the list
     let fiveDayList = fiveDayData.list
@@ -79,17 +91,78 @@ fetch(requestURL)
     }
 
 
-})
-console.log("hello")
-const weatherURL="https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=6fb64bcfd53c37c4e4020c47054f567f&units=imperial";
+});
+const pages= document.getElementById('weather_page').textContent;
+
+let weatherURL="";
+if (pages=="Preston"){
+    weatherURL="https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=6fb64bcfd53c37c4e4020c47054f567f&units=imperial";
+}
+else if (pages=="Soda Springs"){
+    weatherURL="https://api.openweathermap.org/data/2.5/weather?id=5607916&appid=6fb64bcfd53c37c4e4020c47054f567f&units=imperial";
+    
+}
+else if(pages=="Fish Haven"){
+    weatherURL="https://api.openweathermap.org/data/2.5/weather?id=5604045&appid=6fb64bcfd53c37c4e4020c47054f567f&units=imperial";
+    
+}
+
+
 fetch(weatherURL)
 .then((response) => {
     return response.json()
 })
 .then((weathersummary) => {
-    console.log(weathersummary);
+    
     document.getElementById("currently").innerHTML=weathersummary.weather[0].main;
     document.getElementById("temperature").innerHTML=weathersummary.main.temp;
     document.getElementById("humidity").innerHTML = weathersummary.main.humidity;
     document.getElementById("wind_speed").innerHTML= weathersummary.wind.speed;
+});
+
+const requestURL="https://byui-cit230.github.io/weather/data/towndata.json";
+fetch(requestURL)
+.then(function(response){
+    return response.json();
+})
+.then(function(jsonObject){
+   
+    const towns = jsonObject['towns'];
+
+    console.table(jsonObject);
+    let filter_town = jsonObject.towns.filter(town => {
+        return town.name == "Fish Haven" || town.name=="Preston" || town.name=="Soda Springs";
+        
+
+    });
+    
+    
+    for(let i=0; i< filter_town.length; i++){
+      
+        if (filter_town[i].name== page){
+
+            
+            let body = document.createElement('section');
+            body.classList.add("town");
+            let class_html=`<div class="event">
+            <h2>Upcoming Events:</h2>` 
+            for(const event of filter_town[i].events){
+                class_html+=`<p>${event}</p>`
+            }
+
+           class_html+= "</div>";
+            body.innerHTML= class_html;
+            
+            
+        body.setAttribute("class","events_section");
+
+        document.querySelector('div#events_').appendChild(body);
+        
+        }
+        
+       
+        
+
+    }
+    
 });

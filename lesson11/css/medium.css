@@ -162,11 +162,15 @@
     }
 
     #article p {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     #five_day {
         display: block;
+    }
+
+    .event p{
+        font-size: 14px;
     }
 
     .week_days {
@@ -174,6 +178,7 @@
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         text-align: center;
         column-gap: 5px;
+        padding: 10px;
 
     }
 
@@ -205,4 +210,6 @@
     .lazy_img {
         border: 1px solid lightgray;
     }
+
+    
 }
