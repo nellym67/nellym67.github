@@ -347,3 +347,15 @@ fieldset {
 .servicess li{
     text-align: left;
 }
+
+#playroom_img{
+    display: none;
+
+}
+.servicess img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(190, 187, 187)
+}
