@@ -359,3 +359,10 @@ fieldset {
     border-radius: 20px;
     box-shadow: 0 0 20px rgb(190, 187, 187)
 }
+.package_img{
+    display: none;
+}
+
+#reception_page li {
+    text-align: left;
+}
