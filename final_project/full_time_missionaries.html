@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Information about full-time missionaries">
+    <title>Full-Time missionaries</title>
+    <link href="css/stylesheet.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <header>
+        <picture>
+            <img src="images/logo.png" alt="logo">
+        </picture>
+        <section class="heading">
+            <h1>
+                Temple Inn & Suites
+            </h1>
+            <div class="motto">
+                Bringing you closer to the House of the Lord
+            </div>
+        </section>
+
+    </header>
+
+    <main>
+        <nav>
+            <ul id="navigation">
+                <li><a class="ham" href="#">&#9776;</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="temple.html">Temples</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+
+                <li class="dropdown"><a href="services.html">Services</a>
+                    <ul class="dropdown-content">
+                        <li><a  href="reception.html">Reception</a></li>
+                        <li><a class="active" href="full_time_missionaries.html">Full-time temple missionary</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact_us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <h1 class="page_h1">
+            <u>Full-Time Missionaries</u>
+
+        </h1>
+        <p>Temple Inn & Suites is pleased to offer different types of suites for full-time missionaries. Do not hesitate to contact
+            us.</p>
+
+        <section class="body" id="missionaries_page">
+            
+            <section class="suites" id="twin">
+                <img class="suite_img" src="images/twin.jpg" alt="suite">
+            
+                    <h2>Twin Suite</h2>
+                    <p>Make a reservation for one of our twin suits. The twin suits are very spacious and comfortable. </p>
+                    <div class="buttons">
+                        <a href="reservation.html"><button class="button">Reserve this Suite</button></a>
+                    </div>
+            </section>
+
+            <section class="suites" id="queen">
+                <img class="suite_img" src="images/queen.jpg" alt="suite">
+            
+                    <h2>Queen Suite</h2>
+                    <p>Plan your trip to the Temple with accomodation in this spacious suite which offers two queen beds.</p>
+                    <div class="buttons">
+                        <a href="reservation.html"><button class="button">Reserve this Suite</button></a>
+                    </div>
+            </section>
+
+            <section class="suites" id="king">
+                <img class="suite_img" src="images/king.jpg" alt="suite">
+            
+                    <h2>King Suite</h2>
+                    <p>Enjoy our luxurious king suites each with their own balcony. Our king suites boast plush bedding for peaceful nights.  </p>
+                    <div class="buttons">
+                        <a href="reservation.html"><button class="button">Reserve this Suite</button></a>
+                    </div>
+            </section>
+        
+            
+        <section id="more_details">
+
+            <form action="question_thankyou.html">
+                <fieldset>
+                    <legend>
+                        <h2>Contact us for more details</h2>
+                    </legend>
+
+                    <label for="fullname">Full Name:</label><br>
+                    <input class="input" type="text" id="fname" name="fname" pattern="[A-Za-z ]{5,}"
+                        placeholder="John Doe " required><br>
+                    <br>
+                    <label for="email">Email:</label> <br>
+                    <input class="input" type="email" id="email" placeholder="john_doe@email.com"><br>
+                    <br>
+                    <label for="additional_information">Type your question below:</label><br>
+                    <textarea class="input" id="additional_information" name="additional_information" rows="5"
+                        cols="33">
+                    </textarea><br>
+                    <br>
+                    <div class="buttons_bottom">
+
+
+                        <button class="button">Submit</button>
+
+
+                    </div>
+
+                </fieldset>
+
+            </form>
+
+        </section>
+
+
+        </section>
+
+    </main>
+    <footer id="footer">
+        <section class="footer" id="rights">
+            &copy; Temple Inn & Suites | Nelly Ramirez Perez | Idaho | <a href="https://www.byui.edu/online"
+                target="_blank" rel="noopener">BYUI
+                Online Learning</a> <br>
+            <span id="full_date"></span>
+            <script src="js/date.js"></script>
+        </section>
+    </footer>
+    <!-- <script src="js/weather.js"></script> -->
+    <!-- <script src="js/windchill.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/date.js"></script>
+    <!-- <script src="js/loadtemple.js"></script> -->
+</body>
+
+</html>
