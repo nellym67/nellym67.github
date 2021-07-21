@@ -77,6 +77,20 @@
     select{
         width: 99%;
     }
+    #services_page{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+   .servicess img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    .extra_padding{
+        padding-bottom: 96px;
+    }
 
    
 
