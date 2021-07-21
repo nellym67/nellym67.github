@@ -1,0 +1,100 @@
+[{
+        "name": "San Diego California Temple",
+        "phone": "(858) 622-0991",
+        "address1": "7474 Charmant Dr.",
+        "city": "San Diego",
+        "state": "CA",
+        "zip": 92122,
+        "imageurl": "https://assets.ldscdn.org/4f/eb/4feb5a4e556ec9eee605991da421a198255e058a/san_diego_california_temple.jpeg",
+        "email": "sandiegotemple@gmail.com",
+        "closures": [
+            "Monday, 13 September 2021 - Monday, 27 September 2021",
+            "Saturday, 2 October 2021 - Sunday, 3 October 2021",
+            "Wednesday, 24 November 2021 - Thursday, 25 November 2021",
+            "Friday, 24 December 2021 - Saturday, 25 December 2021",
+            "Friday, 31 December 2021"
+
+        ],
+        "services": [
+            "No clothing rental available",
+            "No cafeteria available",
+            "No patron housing available",
+            "Distribution center nearby"
+        ]
+
+
+    },
+
+    {
+        "name": "Fresno California Temple",
+        "phone": "(559) 437-9451",
+        "address1": "6290 N Valentine Ave",
+        "city": "Fresno",
+        "state": "CA",
+        "zip": 93711,
+        "imageurl": "https://assets.ldscdn.org/ee/7d/ee7d21fe8eab14e7997cd60629120ebd830433b2/fresno_temple_lds.jpeg",
+        "email": "fresnocaliforniatemple@gmail.com",
+        "closures": [
+            "Monday, 27 September 2021 - Sunday, 28 November 2021",
+            "Friday, 24 December 2021",
+            "Saturday, 25 December 2021",
+            "Friday, 31 December 2021"
+
+        ],
+        "services": [
+            "No clothing rental available",
+            "No cafeteria available",
+            "No patron housing available",
+            "Distribution center nearby"
+        ]
+    },
+    {
+        "name": "Seattle Washington Temple",
+        "phone": "(425) 643-5144",
+        "address1": "2808 148th Ave SE",
+        "city": "Bellevue",
+        "state": "WA",
+        "zip": 98007,
+        "imageurl": "https://assets.ldscdn.org/52/ea/52ea9432aba6a7597e53b71a6b4470d60b56f4b1/seattle_washington_temple_exterior.jpeg",
+        "email": "seattletemple@gmail.com",
+        "closures": [
+            "Monday, 9 August 2021 - Monday, 23 August 2021",
+            "Saturday, 2 October 2021",
+            "Wednesday, 24 November 2021 - Thursday, 25 November 2021",
+            "Saturday, 25 December 2021"
+
+        ],
+        "services": [
+            "No clothing rental available",
+            "No cafeteria available",
+            "No patron housing available",
+            "Distribution center nearby"
+        ]
+    },
+
+    {
+        "name": "Fort Collins Colorado Temple",
+        "phone": "(970) 797-4630",
+        "address1": "2180 Majestic Dr",
+        "city": "Fort Collins",
+        "state": "CO",
+        "zip": 80528,
+        "imageurl": "https://assets.ldscdn.org/39/f0/39f0cb02ca79fff03cdbe8014db605233b15a78d/fort_collins_colorado_temple_sunset_exterior.jpeg",
+        "email": "fortcollins@gmail.com",
+        "closures": [
+            "Sunday, 15 August 2021 - Monday, 11 October 2021",
+            "Wednesday, 24 November 2021 (Limited Operations)",
+            "Thursday, 25 November 2021",
+            "Friday, 24 December 2021",
+            "Saturday, 25 December 2021",
+            "Friday, 31 December 2021 (Limited Operations)"
+
+        ],
+        "services": [
+            "No clothing rental available",
+            "No cafeteria available",
+            "No patron housing available",
+            "No Distribution center nearby"
+        ]
+    }
+]

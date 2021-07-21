@@ -1,0 +1,172 @@
+/*medium */
+@media only screen and (min-width: 34.5em) {
+    .five_day_forecast {
+        width: 100px;
+    }
+
+    #navigation,
+    .body {
+        margin-top: 0px;
+        font-size: 15px;
+    }
+
+    header img {
+        width: 150px;
+    }
+
+    .heading h1 {
+        font-size: 3rem;
+    }
+
+    .motto {
+        font-size: larger;
+
+    }
+
+    nav {
+        max-width: 100%;
+    }
+
+    #navigation {
+        grid-template-columns: repeat(5, auto);
+
+    }
+
+    #navigation li {
+        display: block;
+    }
+
+    #navigation a {
+        text-align: center;
+
+    }
+
+    #navigation > li:first-child {
+        display: none;
+    }
+
+    
+    
+
+    footer {
+        font-size: 15px;
+    }
+
+    button{ 
+        width:150px;
+        height:50px;
+        line-height:1em;
+    
+      }
+    .button{
+        font-size: 15px;
+    }
+    #hero_img{
+        width: 100%;
+        height: auto;
+    }
+  
+
+    #five_day {
+        display: block;
+    } 
+
+
+    .week_days {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+        text-align: center;
+        column-gap: 5px;
+        margin-top: 10px;
+        
+
+    }
+
+    .day_block {
+        background-color: #177E89;
+        border-radius: 10px;
+    }
+    
+    #temples{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 20px;
+        column-gap: 20px;
+        
+    }
+    
+    #temples img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 20px 20px 0 0 ;
+        
+    }
+    .temple{
+        border-radius: 20px;
+        border: 1px lightgray solid;
+        text-align: center;
+    }
+    .temple:hover{
+        box-shadow: 0 0 20px rgb(190, 187, 187);
+    
+    }
+    .larger input,
+    #storm_type,
+    #selectregion,
+    textarea, select{
+        width: 100%;
+    }
+    form {
+        width: 100%
+
+    }
+    select{
+        width:101.4%;
+    }
+    
+    #contact_page{
+        padding-top: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 400px 1fr;
+        column-gap: 10px;
+    } 
+
+    #information p, h2{
+        text-align: left;
+    }
+    #information {
+        text-align: left;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        justify-self: end;
+       
+     
+    }
+    #map {
+        padding-top:40px;
+        grid-column: 2/3;
+        grid-row: 1/2;
+        justify-self: start;
+      
+    
+    
+    }
+      
+    #question {
+        grid-column: 1/3;
+        grid-row: 2/2;
+    }
+
+
+    #map img{
+        padding: 15px;
+        width: 50px;
+    }
+
+    .input{
+        width:80%
+    }
+}

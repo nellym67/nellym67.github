@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Guests can make reservations">
+    <title>Reservations</title>
+    <link href="css/stylesheet.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <header>
+        <picture>
+            <img src="images/logo.png" alt="logo">
+        </picture>
+        <section class="heading">
+            <h1>
+                Temple Inn & Suites
+            </h1>
+            <div class="motto">
+                Bringing you closer to the House of the Lord
+            </div>
+        </section>
+
+    </header>
+
+    <main>
+        <nav>
+            <ul id="navigation">
+                <li><a class="ham" href="#">&#9776;</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="temple.html">Temples</a></li>
+                <li><a class="active" href="reservation.html">Reservation</a></li>
+
+                <li class="dropdown"><a href="services.html">Services</a>
+                    <ul class="dropdown-content">
+                        <li><a href="reception.html">Reception</a></li>
+                        <li><a href="full_time_missionaries.html">Full-time temple missionary</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact_us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <section class="body" id="home_page">
+
+            <h1 class="page_h1">
+                <u>Make a Reservation</u>
+            </h1>
+            <form action="thankyou.html">
+
+                <fieldset class="form larger" id="fieldset2">
+
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" id="fname" name="fname" pattern="[A-Za-z ]{5,}" placeholder="John Doe "
+                        required><br>
+                    <br>
+
+                    <label for="email">Email:</label> <br>
+                    <input type="email" id="email" placeholder="john_doe@email.com"><br>
+                    <br>
+
+                    <label>Phone: </label><br>
+                    <input type="tel" name="phone" placeholder="###-###-####" required>
+                    <br>
+                    <br>
+
+                    <label for="zip">Zip Code: </label<br>
+                        <input type="text" id="zip" name="zip" pattern="(\d{5}([\-]\d{4})?)"
+                            autocomplete="shipping postal-codep" required><br>
+                        <br>
+
+
+                        <label>
+                            <label for="location">Hotel Locations:</label><br>
+                            <select name="location" id="location" onchange="selectResponse()"><br>
+                                <datalist id="location">
+                                    <option value="" disabled selected>Locations...</option>
+                                    <option value="San Diego, CA">San Diego, CA</option>
+                                    <option value="Fresno, CA">Fresno, CA</option>
+                                    <option value="Bellevue, WA">Bellevue, WA</option>
+                                    <option value="Fort Collins, CO">Fort Collins, CO</option>
+
+                                </datalist>
+                                <br>
+
+                            </select></label><br>
+                        <br>
+                        <label for="room">Type of Room:</label><br>
+                        <select name="room" id="room" onchange="selectResponse()"><br>
+                            <datalist id="room">
+                                <option value="" disabled selected>Type of Rooms...</option>
+                                <option value="King">King</option>
+                                <option value="Qeen">Queen</option>
+                                <option value="Twin">Twin</option>
+
+
+                            </datalist>
+                            <br>
+                        </select></label><br>
+                    <br>
+
+                    <label for="num_room">Number of Rooms:</label><br>
+                    <select name="num_room" id="num_room" onchange="selectResponse()"><br>
+                        <datalist id="num_room">
+                            <option value="" disabled selected>Number of Rooms...</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                        </datalist>
+                        <br>
+                    </select></label><br>
+                    <br>
+                    <label for="date">Check-in Date:</label><br>
+                    <input type="date" id="date" name="date"><br>
+
+
+                    <br>
+                    <label for="date">Check-out Date:</label><br>
+                    <input type="date" id="date" name="date"><br>
+
+
+                    <br>
+                    <label for="additional_information">Special Accommodations:</label><br>
+                    <textarea id="additional_information" name="additional_information" rows="5" cols="33">
+                </textarea><br>
+                    <br>
+
+
+                    <div class="buttons_bottom">
+
+
+                        <button class="button">Make Reservation</button>
+
+
+                    </div>
+
+
+
+
+
+                </fieldset>
+
+
+            </form>
+
+
+
+
+
+
+
+
+        </section>
+
+    </main>
+    <footer id="footer">
+        <section class="footer" id="rights">
+            &copy; Temple Inn & Suites | Nelly Ramirez Perez | Idaho | <a href="https://www.byui.edu/online"
+                target="_blank" rel="noopener">BYUI
+                Online Learning</a> <br>
+            <span id="full_date"></span>
+            <script src="js/date.js"></script>
+        </section>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/date.js"></script>
+</body>
+
+</html>

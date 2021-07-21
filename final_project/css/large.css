@@ -1,0 +1,83 @@
+/*large */
+@media only screen and (min-width: 54.5em) {
+
+    #navigation,
+    .body {
+        width: 800px;
+        margin: 16px auto;
+        margin-top: 0px;
+        font-size: 17px;
+    } 
+
+    footer {
+        font-size: 17px;
+    }
+
+    button{ 
+        width:200px;
+        height:50px;
+        line-height:1em;
+       
+    
+      }
+    
+    .button{
+        font-size: 17px;
+    }
+    #hero_img{
+        width: 100%;
+        height: auto;
+    }
+   
+    .five_day_forecast {
+        width: 140px;
+    }
+  
+    #temples{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 20px;
+        column-gap: 20px;
+        
+    }
+    
+    #temples img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 20px 20px 0 0 ;
+        
+    }
+    .temple{
+        border-radius: 20px;
+        border: 1px lightgray solid;
+        text-align: center;
+       
+    }
+    
+  
+    fieldset {
+        width: 100%;
+        align-self: center;
+        margin: auto;
+        margin: 10px;
+    }
+
+    .larger input,
+    #storm_type,
+    #selectregion,
+    textarea{
+        width: 98%;
+    }
+    form {
+        width: 95%
+
+    }
+    select{
+        width: 99%;
+    }
+
+   
+
+}
